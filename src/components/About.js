@@ -17,7 +17,7 @@ const About = () => {
       </section>
 
       <section className="service">
-        <h3 className="h3 service-title">What I'm doing</h3>
+        <h3 className="h3 service-title">Skills & Services</h3>
         <ul className="service-list">
           {about.services.map((service, index) => (
             <li key={index} className="service-item">

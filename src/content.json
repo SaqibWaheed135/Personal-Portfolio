@@ -1,35 +1,35 @@
 {
   "sidebar": {
-    "name": "Rubanraja R",
-    "title": "Senior Motion Graphics Designer . AI Generalist . Prompt Engineering Specialist .",
+    "name": "Saqib Waheed",
+    "title": "React Native Developer",
     "contacts": {
       "email": {
         "title": "Email",
-        "value": "rubanraja00@gmail.com",
-        "link": "mailto:rubanraja00@gmail.com"
+        "value": "xaqibwaheed333@gmail.com",
+        "link": "mailto:xaqibwaheed333@gmail.com"
       },
       "phone": {
         "title": "Phone",
-        "value": "+91 731-731-0798",
-        "link": "tel:+12133522795"
+        "value": "+92 313-8862694",
+        "link": "tel:+92 313-8862694"
       },
       "birthday": {
         "title": "Birthday",
-        "value": "June 23, 1982",
-        "datetime": "1982-06-23"
+        "value": "Nov 29, 2001",
+        "datetime": "2001-11-29"
       },
       "location": {
         "title": "Location",
-        "value": "Sacramento, California, USA"
+        "value": "Rawalpindi, Pakistan"
       }
     },
     "social": [
       {
-        "name": "facebook",
+        "name": "Github",
         "url": "#"
       },
       {
-        "name": "twitter",
+        "name": "Linkedin",
         "url": "#"
       },
       {
@@ -45,57 +45,69 @@
   "about": {
     "title": "About me",
     "text": [
-      "I'm Creative Graphic Designer from palani, tamil nadu, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
-      "My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies."
+      "I'm Saqib Waheed, a passionate React Native Developer with one year of hands-on experience in building and maintaining cross-platform mobile applications. I specialize in crafting scalable, high-performance apps with clean and maintainable code. With a strong foundation in React.js, React Native, JavaScript, and UI/UX design, I aim to deliver seamless user experiences and innovative solutions. During my career journey, I’ve had the privilege to:",
+      "Intern as a React Native Developer at X Apparel Private Limited from January to April 2024. Continue as a Junior React Native Developer at the same company from April to Present.",
+      "In these roles, I’ve honed my skills in creating seamless mobile experiences integrating cutting-edge technologies like TensorFlow.js WebView  and Firebase, and solving challenging problems to deliver high-performing apps."
     ],
     "services": [
       {
-        "title": "Web design",
-        "icon": "/assets/images/icon-design.svg",
-        "description": "The most modern and high-quality design made at a professional level."
-      },
-      {
-        "title": "Web design",
-        "icon": "/assets/images/icon-design.svg",
-        "description": "The most modern and high-quality design made at a professional level."
-      },
-      {
-        "title": "Web development",
-        "icon": "/assets/images/icon-dev.svg",
-        "description": "High-quality development of sites at the professional level."
-      },
-      {
-        "title": "Mobile apps",
+        "title": "Mobile App Development",
         "icon": "/assets/images/icon-app.svg",
-        "description": "Professional development of applications for iOS and Android."
+        "description": "React Native, Cross-platform solutions, API Integration."
       },
       {
-        "title": "Photography",
+        "title": "Front-end Development",
+        "icon": "/assets/images/icon-dev.svg",
+        "description": "React.js, HTML5, CSS3, Bootstrap, Tailwind CSS."
+      },
+      {
+        "title": " State Management",
+        "icon": "/assets/images/icon-dev.svg",
+        "description": "Redux, Context API."
+      },
+      {
+        "title": "UI/UX Design",
+        "icon": "/assets/images/icon-design.svg",
+        "description": "User-friendly interfaces, Figma proficiency."
+      },
+      {
+        "title": "Performance Optimization & Debugging",
+        "icon": "/assets/images/icon-quote.svg",
+        "description": "Ensuring smooth and efficient app functionality."
+      },
+      {
+        "title": "Version Control",
+        "icon": "/assets/images/icon-quote.svg",
+        "description": "Git, GitHub."
+      },
+      {
+        "title": "Wordpress Developer",
         "icon": "/assets/images/icon-photo.svg",
-        "description": "I make high-quality photos of any category at a professional level."
+        "description": "Custom Themes, Plugin Integration, WooCommerce Setup."
+      },
+      {
+        "title": "Shopify Developer",
+        "icon": "/assets/images/icon-photo.svg",
+        "description": "Custom Themes, Apps Integration"
       }
     ],
     "testimonials": [
       {
-        "name": "Daniel lewis",
+        "name": "Bilal Maqsood, X Apparel Pvt Ltd. Manager",
         "avatar": "/assets/images/avatar-1.png",
-        "text": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia."
+        "text": "Saqib transformed our app with a sleek, user-friendly design and optimized performance. His problem-solving skills and attention to detail were outstanding!."
       },
       {
-        "name": "Jessica miller",
-        "avatar": "/assets/images/avatar-2.png",
-        "text": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia."
-      },
-      {
-        "name": "Emily evans",
-        "avatar": "/assets/images/avatar-3.png",
-        "text": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia."
-      },
-      {
-        "name": "Henry william",
+        "name": "Muhammad Hamza, X Apparel Pvt Ltd. CEO",
         "avatar": "/assets/images/avatar-4.png",
-        "text": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia."
+        "text": "Professional, efficient, and always ready to tackle challenges. Saqib played a crucial role in improving our e-commerce app's functionality."
+      },
+      {
+        "name": "Umer Toor, GitLogix Manager",
+        "avatar": "/assets/images/avatar-1.png",
+        "text": "Working with Saqib was a great experience. He built a high-performing mobile application that met all our expectations and beyond!."
       }
+      
     ],
     "clients": [
       {
@@ -132,56 +144,55 @@
   },
   "resume": {
     "title": "Resume",
+    
     "education": [
       {
-        "title": "University school of the arts",
-        "date": "2007 — 2008",
-        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-      },
-      {
-        "title": "New york academy of art",
-        "date": "2006 — 2007",
-        "description": "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
-      },
-      {
-        "title": "High school of art and design",
-        "date": "2002 — 2004",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
+        "title": "National University of Modern Languages,Islamabad",
+        "date": "2021 — 2024",
+        "description": "Bachelor of Science in Software Engineering"
       }
     ],
     "experience": [
       {
-        "title": "Creative director",
-        "date": "2015 — Present",
-        "description": "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
+        "title": "React Native Developer",
+        "date": "September 2023 — Present",
+        "description": "Developed and maintained cross-platform mobile applications using React Native."
       },
       {
-        "title": "Art director",
-        "date": "2013 — 2015",
-        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+        "title": "React Native Internship",
+        "date": "September 2023 — February 2024",
+        "description": "During my internship, I gained a solid understanding of React Native's basic concepts, including component-based development, state management, navigation, and API integration. I worked on building and optimizing mobile applications, enhancing my skills in cross-platform development."
       },
       {
-        "title": "Web designer",
-        "date": "2010 — 2013",
-        "description": "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+        "title": "Front End Developer Internship",
+        "date": " January 2023 - June 2023",
+        "description": "During my internship, I learned the fundamentals of React for front-end development, including component-based architecture, state and props management, React Router for navigation, and API integration. I worked on building dynamic and responsive user interfaces, improving my skills in modern web development."
       }
     ],
     "skills": [
       {
-        "name": "Web design",
+        "name": "Mobile Application Development",
         "value": 80
       },
       {
-        "name": "Graphic design",
+        "name": "Web Development",
         "value": 70
       },
       {
-        "name": "Branding",
-        "value": 90
+        "name": "UI/UX Design",
+        "value": 80
       },
       {
         "name": "WordPress",
-        "value": 50
+        "value": 80
+      },
+      {
+        "name": "Shopify",
+        "value": 80
+      },
+      {
+        "name": "Backend",
+        "value": 65
       }
     ]
   },
@@ -189,58 +200,96 @@
     "title": "Portfolio",
     "projects": [
       {
-        "title": "Finance",
-        "category": "Web development",
+        "title": "Mereos",
+        "category": "Mobile Application ",
         "image": "/assets/images/project-1.jpg",
         "url": "#"
       },
       {
-        "title": "Orizon",
-        "category": "Web development",
+        "title": "VapeKorner",
+        "category": "Mobile Application",
         "image": "/assets/images/project-2.png",
         "url": "#"
       },
       {
-        "title": "Fundo",
-        "category": "Web design",
+        "title": "GenVid",
+        "category": "Mobile Application",
         "image": "/assets/images/project-3.jpg",
         "url": "#"
       },
       {
-        "title": "Brawlhalla",
-        "category": "Applications",
+        "title": "Social Media App",
+        "category": "Mobile Application",
         "image": "/assets/images/project-4.png",
         "url": "#"
       },
       {
-        "title": "DSM.",
-        "category": "Web design",
+        "title": "Real Estate App",
+        "category": "Mobile Application",
         "image": "/assets/images/project-5.png",
         "url": "#"
       },
       {
-        "title": "MetaSpark",
-        "category": "Web design",
-        "image": "/assets/images/project-6.png",
-        "url": "#"
-      },
-      {
-        "title": "Summary",
-        "category": "Web development",
-        "image": "/assets/images/project-7.png",
-        "url": "#"
-      },
-      {
         "title": "Task Manager",
-        "category": "Applications",
+        "category": "Mobile Application",
         "image": "/assets/images/project-8.jpg",
         "url": "#"
       },
       {
-        "title": "Arrival",
-        "category": "Web development",
-        "image": "/assets/images/project-9.png",
+        "title": "Appointment Booking App",
+        "category": "Mobile Application",
+        "image": "/assets/images/project-6.png",
         "url": "#"
+      },
+      {
+        "title": "Vapekorner",
+        "category": "Wordpress Websites",
+        "image": "/assets/images/project-7.png",
+        "url": "#"
+      },
+
+      {
+        "title": "Ecome Scale",
+        "category": "Wordpress Websites",
+        "image": "/assets/images/project-7.png",
+        "url": "https://ecomscale.pk/"
+      },
+      
+      {
+        "title": "Fresh and Fit Ltd",
+        "category": "Wordpress Websites",
+        "image": "/assets/images/project-6.png",
+        "url": "https://freshandfitltd.com/"
+      },
+      {
+        "title": "Wicked Plug",
+        "category": "Shopify Websites",
+        "image": "/assets/images/project-6.png",
+        "url": "https://wickedplug.ie/"
+      },
+      {
+        "title": "Wicked Plug",
+        "category": "Shopify Websites",
+        "image": "/assets/images/project-6.png",
+        "url": "https://wickedplug.ie/"
+      },
+      {
+        "title": "EcigStore Uk",
+        "category": "Shopify Websites",
+        "image": "/assets/images/project-6.png",
+        "url": "https://ecigstore.co.uk/"
+      },
+      {
+        "title": "EcigDistro Uk",
+        "category": "Shopify Websites",
+        "image": "/assets/images/project-6.png",
+        "url": "http://ecigdistro.uk/"
+      },
+      {
+        "title": "VapeKorner",
+        "category": "Wordpress Websites",
+        "image": "/assets/images/project-6.png",
+        "url": "https://vapekorner.com/"
       }
     ]
   },
@@ -293,7 +342,7 @@
   },
   "contact": {
     "title": "Contact",
-    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.0802490776105!2d73.11486122479295!3d33.60322224130801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfeb6229a76d25%3A0x403f042c7aefe38f!2sFazal%20Town%20Phase%20I%20Phase%201%2C%20Rawalpindi%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1738175641195!5m2!1sen!2s",
     "form": {
       "title": "Contact Form",
       "fields": [

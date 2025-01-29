@@ -1,16 +1,26 @@
 import React from 'react';
 import content from '../content.json';
+import Myresume from './assets/resume/Saqib-Waheed-Resume.pdf'
 
 const Resume = () => {
   const { resume } = content;
-  
+  const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = Myresume; // Replace with the actual path to your resume
+    link.download = "Saqib-Waheed-Resume.pdf"; // Set the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   return (
     <article className="resume active" data-page="resume">
       <header>
         <h2 className="h2 article-title">{resume.title}</h2>
       </header>
 
-      <section className="timeline">
+      <section className="timeline" style={{display:'flex',justifyContent:'space-between',alignItems:'self-start'}}>
+        <div>
         <div className="title-wrapper">
           <div className="icon-box">
             <ion-icon name="book-outline"></ion-icon>
@@ -26,6 +36,18 @@ const Resume = () => {
             </li>
           ))}
         </ul>
+        </div>
+        <div>
+          <button
+            className="form-btn"
+            onClick={downloadResume}
+          >
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>
+              Download Resume
+            </span>
+          </button>
+        </div>
       </section>
 
       <section className="timeline">
@@ -56,7 +78,7 @@ const Resume = () => {
                 <data value={skill.value}>{skill.value}%</data>
               </div>
               <div className="skill-progress-bg">
-                <div className="skill-progress-fill" style={{width: `${skill.value}%`}}></div>
+                <div className="skill-progress-fill" style={{ width: `${skill.value}%` }}></div>
               </div>
             </li>
           ))}

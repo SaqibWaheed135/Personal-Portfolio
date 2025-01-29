@@ -1,17 +1,16 @@
 {
   "personalInfo": {
-    "name": "Richard Hanrick",
-    "title": "Web developer",
-    "location": "Sacramento, California, USA",
-    "email": "richard@example.com",
-    "phone": "+1 (213) 352-2795",
-    "birthday": "June 23, 1982"
+    "name": "Saqib Waheed",
+    "title": "React Native Developer",
+    "location": "Rawalpindi, Pakistan",
+    "email": "xaqibwaheed333@gmail.com",
+    "phone": "+92 313-8862694",
+    "birthday": "Nov 29, 2001"
   },
   "about": {
     "title": "About me",
     "text": [
-      "I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
-      "My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies."
+      "Hi, I'm Saqib, a passionate and detail-oriented React Native Developer with a strong foundation in software engineering. I specialize in building robust, user-friendly, and scalable mobile applications for Android and iOS platforms. I bring a combination of academic knowledge and hands-on experience. During my career journey, I’ve had the privilege to:<br>Intern as a React Native Developer at Apparel X Private Limited from March to June 2024.<br>Continue as a Junior React Native Developer at the same company from June to November 2024.<br>In these roles, I’ve honed my skills in creating seamless mobile experiences, integrating cutting-edge technologies like TensorFlow.js, WebView, and Firebase, and solving challenging problems to deliver high-performing apps."
     ]
   },
   "services": [

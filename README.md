@@ -1,66 +1,47 @@
-# React Resume Builder
+<div align="center">
+  
+  <h3 align="center">👋 Hi, I'm Saqib!</h3>
+  <p>Welcome to my personal portfolio, where I showcase my projects and the skills I’ve developed while building intuitive and high-performance mobile apps.</p>
 
-This project is a React-based resume builder application, converted from a basic HTML/CSS/JS template (available in the `/old_assets` directory). It provides a modern and interactive way to create and customize professional resumes, with data managed through a simple JSON file.
+</div>
 
-**Key Features:**
+## 📋 <a name="table">Table of Contents</a>
 
-*   **React-Based:** Completely rewritten using React for a dynamic and interactive user experience.
-*   **Editable Content:** All resume content is managed through a `content.json` file, making it easy to customize without touching the code.
-*   **Form Validation:** Implemented client-side form validation to ensure data integrity.
-*   **Google Sheets Integration:** Integrated with Google Sheets using Apps Script to store and potentially retrieve resume data. (Apps Script link: [Share your Apps Script file link here])
-*   **Responsive Design:** Optimized for viewing on various devices (desktops, tablets, and mobile).
-*   **SEO Optimization:** Basic SEO tags added for improved search engine visibility.
-*   **Title Scroll CSS:** Added a visually appealing scrolling effect to the title.
-*   **Responsive Gravity Pills:** Implemented visually engaging "gravity pills" for interactive elements.
+1. 🤖 [Introduction](#introduction)
+2. 💡  [What I Do?](#whatIdo)
+3. 📌 [Skills & Tech Stack](#skills)
+4. 🔗 [Let's Connect](#links)
 
-**Screenshots/Demo:**
 
-*(Optional: Include screenshots or a link to a live demo if you have one deployed.)*
+## <a name="introduction">🤖 Introduction</a>
 
-**Technologies Used:**
+I'm Saqib Waheed, a passionate React Native Developer with one year of hands-on experience in building and maintaining cross-platform mobile applications. I specialize in crafting scalable, high-performance apps with clean and maintainable code. With a strong foundation in **React.js**, **React Native**, **JavaScript**, and **UI/UX design**, I aim to deliver seamless user experiences and innovative solutions. 
 
-*   React
-*   HTML
-*   CSS
-*   JavaScript
-*   Google Apps Script (for Google Sheets integration)
 
-**Getting Started:**
+## <a name="whatIdo">⚙️ What I do? </a>
 
-1.  Clone this repository: `git clone https://github.com/your-username/react-resume-builder.git` (Replace with your actual repo URL)
-2.  Navigate to the project directory: `cd react-resume-builder`
-3.  Install dependencies: `npm install` or `yarn install`
-4.  Run the app: `npm start` or `yarn start`
-5. Access the app: The app will typically be running on `http://localhost:3000`
+🚀 **Mobile App Development**: Creating intuitive and high-performance React Native apps.
+⚡ **AI Integration**: Implementing AI-based features like face detection, object tracking, and smart proctoring.
+🌐 **Front-End Development**: Building robust applications using React.js, HTML5, CSS3, Bootstrap, Tailwind CSS.
+🔍 **E-commerce Solutions**: Customizing Shopify and WooCommerce stores for better user engagement and sales.
+⚡ **UI/UX Design**: User-friendly interfaces, Figma proficiency.
+🔍 **Version Control**: Git,Github
 
-**Content Management:**
 
-All resume data is stored in `content.json`. Simply edit this file to customize your resume content. The structure of the JSON should be self-explanatory, but feel free to open an issue if you have questions.
+## <a name="skills">🔋 Skills & Tech Stack </a>
 
-**Google Sheets Integration:**
+- **Frontend**: React Native, React.js, JavaScript, HTML, CSS
+- **Backend**: Node.js, Express.js, MongoDB
+- **AI & ML**: TensorFlow.js, MediaPipe, Face Recognition APIs
+- **E-commerce**: Shopify, WooCommerce, WordPress
+- **Tools**: Git, GitHub, Firebase, WebSockets
+and many more, including code architecture and reusability 
 
-This project uses Google Apps Script to interact with a Google Sheet. The Apps Script code is available here: [Share your Apps Script file link here]. You'll need to set up your own Google Sheet and configure the Apps Script to work with it. Instructions for this setup should be included in the Apps Script file or in a separate documentation file (recommended).
+## <a name="links">🔋 Let's Connect </a>
 
-**Future Enhancements:**
+- [Git](https://github.com/SaqibWaheed135)
+- [Linkedin](https://www.linkedin.com/in/saqib-waheed/)
 
-*   **AI Integration:** Exploring the possibility of integrating AI features to enhance resume creation.
-*   **Profile Picture Emoji Generator:** A fun feature to generate profile picture emojis.
-*   **Easy Editor:** Creating a user-friendly HTML form interface (`easy-editor.html`) for easier data input into `content.json`.
+</details>
 
-**Contributing:**
 
-Contributions are welcome! This is a hobby project aimed at helping people create great resumes. If you have ideas for improvements, bug fixes, or new features, please open an issue or submit a pull request. Let's work together to make this project even better!
-
-**Shout-out:**
-
-This project was inspired by a basic HTML/CSS/JS resume template (available in the `/old_assets` directory), which provided the initial structure and styling.
-
-**License:**
-
-[Choose an appropriate license, such as MIT License. Example below:]
-
-MIT License
-
-Copyright (c) [Year] [Your Name]
-
-[Rest of the MIT License text - copy from a standard MIT license]

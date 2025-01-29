@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Saqib Waheed
+Saqib Waheed
+Mobile Application developer
 
 Show Contacts
 
 Email
-richard@example.com
+xaqibwaheed333@gmail.com
 
 Phone
-+1 (213) 352-2795
++92 313-8862694
 
 Birthday
-June 23, 1982
+Nov 29, 2001
 
 Location
-Sacramento, California, USA
+Rawalpindi, Pakistan
 
 # navbar
 
