@@ -201,57 +201,28 @@
     "projects": [
       {
         "title": "Mereos",
-        "category": "Mobile Application ",
-        "image": "/assets/images/project-1.jpg",
-        "url": "#"
+        "category": "Mobile Application",
+        "image": "/assets/images/project-8.jpg",
+        "url": "https://play.google.com/store/apps/details?id=com.mobile_proctor"
       },
       {
-        "title": "VapeKorner",
+        "title": "ECommerceApp",
         "category": "Mobile Application",
         "image": "/assets/images/project-2.png",
-        "url": "#"
+        "url": "https://github.com/SaqibWaheed135/ECommerceApp.git"
       },
       {
         "title": "GenVid",
         "category": "Mobile Application",
-        "image": "/assets/images/project-3.jpg",
-        "url": "#"
-      },
-      {
-        "title": "Social Media App",
-        "category": "Mobile Application",
         "image": "/assets/images/project-4.png",
-        "url": "#"
+        "url": "https://github.com/SaqibWaheed135/GenVid--AI-Video-Sharing-Platform-built-with-React-Native"
       },
-      {
-        "title": "Real Estate App",
-        "category": "Mobile Application",
-        "image": "/assets/images/project-5.png",
-        "url": "#"
-      },
-      {
-        "title": "Task Manager",
-        "category": "Mobile Application",
-        "image": "/assets/images/project-8.jpg",
-        "url": "#"
-      },
-      {
-        "title": "Appointment Booking App",
-        "category": "Mobile Application",
-        "image": "/assets/images/project-6.png",
-        "url": "#"
-      },
-      {
-        "title": "Vapekorner",
-        "category": "Wordpress Websites",
-        "image": "/assets/images/project-7.png",
-        "url": "#"
-      },
+      
 
       {
         "title": "Ecome Scale",
         "category": "Wordpress Websites",
-        "image": "/assets/images/project-7.png",
+        "image": "/assets/images/project-2.png",
         "url": "https://ecomscale.pk/"
       },
       
@@ -264,19 +235,19 @@
       {
         "title": "Wicked Plug",
         "category": "Shopify Websites",
-        "image": "/assets/images/project-6.png",
+        "image": "/assets/images/project-7.png",
         "url": "https://wickedplug.ie/"
       },
       {
         "title": "Wicked Plug",
         "category": "Shopify Websites",
-        "image": "/assets/images/project-6.png",
+        "image": "/assets/images/project-9.png",
         "url": "https://wickedplug.ie/"
       },
       {
         "title": "EcigStore Uk",
         "category": "Shopify Websites",
-        "image": "/assets/images/project-6.png",
+        "image": "/assets/images/project-5.png",
         "url": "https://ecigstore.co.uk/"
       },
       {
