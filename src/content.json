@@ -26,15 +26,11 @@
     "social": [
       {
         "name": "Github",
-        "url": "#"
+        "url": "https://github.com/SaqibWaheed135"
       },
       {
         "name": "Linkedin",
-        "url": "#"
-      },
-      {
-        "name": "instagram",
-        "url": "#"
+        "url": "https://www.linkedin.com/in/saqib-waheed"
       }
     ],
     "buttons": {
@@ -45,7 +41,7 @@
   "about": {
     "title": "About me",
     "text": [
-      "I'm Saqib Waheed, a passionate React Native Developer with one year of hands-on experience in building and maintaining cross-platform mobile applications. I specialize in crafting scalable, high-performance apps with clean and maintainable code. With a strong foundation in React.js, React Native, JavaScript, and UI/UX design, I aim to deliver seamless user experiences and innovative solutions. During my career journey, I’ve had the privilege to:",
+      "I'm Saqib Waheed, a passionate React Native Developer with 1.5+ year of hands-on experience in building and maintaining cross-platform mobile applications. I specialize in crafting scalable, high-performance apps with clean and maintainable code. With a strong foundation in React.js, React Native, JavaScript, and UI/UX design, I aim to deliver seamless user experiences and innovative solutions. During my career journey, I’ve had the privilege to:",
       "Intern as a React Native Developer at X Apparel Private Limited from January to April 2024. Continue as a Junior React Native Developer at the same company from April to Present.",
       "In these roles, I’ve honed my skills in creating seamless mobile experiences integrating cutting-edge technologies like TensorFlow.js WebView  and Firebase, and solving challenging problems to deliver high-performing apps."
     ],
@@ -107,7 +103,6 @@
         "avatar": "/assets/images/avatar-1.png",
         "text": "Working with Saqib was a great experience. He built a high-performing mobile application that met all our expectations and beyond!."
       }
-      
     ],
     "clients": [
       {
@@ -144,7 +139,6 @@
   },
   "resume": {
     "title": "Resume",
-    
     "education": [
       {
         "title": "National University of Modern Languages,Islamabad",
@@ -206,19 +200,29 @@
         "url": "https://play.google.com/store/apps/details?id=com.mobile_proctor"
       },
       {
+        "title": "TripBrain Planner",
+        "category": "Mobile Application",
+        "image": "/assets/images/icon.png",
+        "url": "#"
+      },
+      {
+        "title": "EarnKar",
+        "category": "Mobile Application",
+        "image": "/assets/images/project-8.jpg",
+        "url": "#"
+      },
+      {
         "title": "Deen Dost: Quran & Prayer",
         "category": "Mobile Application",
         "image": "/assets/images/project-8.jpg",
         "url": "https://play.google.com/store/apps/details?id=com.deen_dost.app"
       },
-
       {
-        "title": "Football Points",
-        "category": "Mobile Application",
-        "image": "/assets/images/project-8.jpg",
-        "url": "https://drive.google.com/drive/folders/13J9WRZ4zzm7Fndz01OkEx_L2PO008Uu_?dmr=1&ec=wgc-drive-globalnav-goto"
+        "title": "TheClipStream",
+        "category": "Website",
+        "image": "/assets/images/project-2.png",
+        "url": "#"
       },
-      
       {
         "title": "ECommerceApp",
         "category": "Mobile Application",
@@ -231,15 +235,12 @@
         "image": "/assets/images/project-4.png",
         "url": "https://github.com/SaqibWaheed135/GenVid--AI-Video-Sharing-Platform-built-with-React-Native"
       },
-      
-
       {
         "title": "Ecome Scale",
         "category": "Wordpress Websites",
         "image": "/assets/images/project-2.png",
         "url": "https://ecomscale.pk/"
       },
-      
       {
         "title": "Fresh and Fit Ltd",
         "category": "Wordpress Websites",
