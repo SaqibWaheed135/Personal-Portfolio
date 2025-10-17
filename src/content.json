@@ -227,6 +227,14 @@
     "title": "Portfolio",
     "projects": [
       {
+        "title": "Stylish- Full Stack E Commerce App",
+        "category": "Mobile Application",
+        "image": "/assets/images/cover.jpg",
+        "url": "#",
+        "apk": "/assets/apk/stylish.apk",
+        "hasApk": true
+      },
+      {
         "title": "TripBrain Planner",
         "category": "Mobile Application",
         "image": "/assets/images/tripbrainlogo.png",
@@ -250,7 +258,6 @@
         "apk": "https://drive.google.com/file/d/1EQSlI6PlehCxcbxnH2Pgz7GsfljLxdrm/view?usp=sharing",
         "hasApk": true
       },
-     
       {
         "title": "TheClipStream",
         "category": "Websites",
@@ -258,7 +265,6 @@
         "url": "https://theclipstream.netlify.app",
         "hasApk": false
       },
-      
       {
         "title": "Ecome Scale",
         "category": "Wordpress Websites",
@@ -285,7 +291,7 @@
   "blog": {
     "title": "Blog",
     "posts": [
-       {
+      {
         "title": "Optimizing React Native Performance: Best Practices",
         "category": "Mobile Development",
         "date": "Jan 15, 2025",
