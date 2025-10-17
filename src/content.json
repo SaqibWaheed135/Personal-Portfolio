@@ -1,0 +1,359 @@
+{
+  "sidebar": {
+    "name": "Saqib Waheed",
+    "title": "React Native Developer",
+    "contacts": {
+      "email": {
+        "title": "Email",
+        "value": "xaqibwaheed333@gmail.com",
+        "link": "mailto:xaqibwaheed333@gmail.com"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+92 313-8862694",
+        "link": "tel:+92 313-8862694"
+      },
+      "birthday": {
+        "title": "Birthday",
+        "value": "Nov 29, 2001",
+        "datetime": "2001-11-29"
+      },
+      "location": {
+        "title": "Location",
+        "value": "Rawalpindi, Pakistan"
+      }
+    },
+    "social": [
+      {
+        "name": "Github",
+        "url": "https://github.com/SaqibWaheed135"
+      },
+      {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/saqib-waheed"
+      }
+    ],
+    "buttons": {
+      "show": "Show Contacts",
+      "hide": "Hide Contacts"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "text": [
+      "I'm Saqib Waheed, a passionate React Native Developer with 1.5+ years of hands-on experience in building cross-platform mobile applications for e-commerce, AI, and real-time communication platforms. I specialize in React Native CLI, Firebase, WebSockets, and AI integrations, with a strong focus on clean code, performance optimization, and delivering seamless user experiences.",
+      "Throughout my career journey, I've worked on diverse projects ranging from AI-powered travel planners to secure proctoring systems and full-stack e-commerce platforms. I hold a Bachelor of Science in Software Engineering from National University of Modern Languages, Islamabad (2021-2024).",
+      "My professional experience includes working as a Software Engineer at Global Network Creativity Technology (January 2025 - Present), where I've integrated HLS video playback and built video upload workflows with Wasabi S3. Prior to that, I served as a React Native Developer at X Apparel Private Ltd. (January 2024 - December 2024), where I developed cross-platform mobile applications, integrated Firebase and WebSockets, and improved app performance by 15%. I also completed an internship at the same company (October 2023 - December 2023), gaining hands-on experience in React Native, Expo, Firebase, and API integration."
+    ],
+    "services": [
+      {
+        "title": "Mobile App Development",
+        "icon": "/assets/images/icon-app.svg",
+        "description": "React Native (CLI & Expo), Cross-platform solutions, API Integration, Firebase, WebSockets"
+      },
+      {
+        "title": "Front-end Development",
+        "icon": "/assets/images/icon-dev.svg",
+        "description": "React.js, HTML5, CSS3, Bootstrap, Tailwind CSS."
+      },
+      {
+        "title": "Backend & Database",
+        "icon": "/assets/images/backend-icon.svg",
+        "description": "Node.js, Express.js, MongoDB for full-stack development."
+      },
+      {
+        "title": " State Management",
+        "icon": "/assets/images/redux-icon.svg",
+        "description": "Redux, Context API."
+      },
+      {
+        "title": "UI/UX Design",
+        "icon": "/assets/images/icon-design.svg",
+        "description": "Prototyping & Wireframing with Figma, Responsive & User-Friendly Interfaces."
+      },
+      {
+        "title": "AI Integrations",
+        "icon": "/assets/images/ai-icon.svg",
+        "description": "Gemini API, TensorFlow.js, AI-powered features for smart applications."
+      },
+      {
+        "title": "Real-Time Features",
+        "icon": "/assets/images/icon-photo.svg",
+        "description": "Push Notifications, WebSockets, Live Communication Systems."
+      },
+      {
+        "title": "Version Control & Deployment",
+        "icon": "/assets/images/git-icon.svg",
+        "description": "Git, GitHub, Play Store & App Store deployment."
+      },
+      {
+        "title": "Performance Optimization & Debugging",
+        "icon": "/assets/images/performance-icon.svg",
+        "description": "Ensuring smooth and efficient app functionality."
+      },
+      {
+        "title": "Wordpress Developer",
+        "icon": "/assets/images/wordpress-icon.svg",
+        "description": "Custom Themes, Plugin Integration, WooCommerce Setup."
+      },
+      {
+        "title": "Shopify Developer",
+        "icon": "/assets/images/shopify-icon.svg",
+        "description": "Custom Themes, Apps Integration"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Bilal Maqsood, X Apparel Pvt Ltd. Manager",
+        "avatar": "/assets/images/avatar-1.png",
+        "text": "Saqib transformed our app with a sleek, user-friendly design and optimized performance. His problem-solving skills and attention to detail were outstanding!."
+      },
+      {
+        "name": "Muhammad Hamza, X Apparel Pvt Ltd. CEO",
+        "avatar": "/assets/images/avatar-4.png",
+        "text": "Professional, efficient, and always ready to tackle challenges. Saqib played a crucial role in improving our e-commerce app's functionality."
+      },
+      {
+        "name": "Umer Toor, GitLogix Manager",
+        "avatar": "/assets/images/avatar-1.png",
+        "text": "Working with Saqib was a great experience. He built a high-performing mobile application that met all our expectations and beyond!."
+      }
+    ],
+    "clients": [
+      {
+        "name": "Client 1",
+        "logo": "/assets/images/logo-1-color.png",
+        "url": "#"
+      },
+      {
+        "name": "Client 2",
+        "logo": "/assets/images/logo-2-color.png",
+        "url": "#"
+      },
+      {
+        "name": "Client 3",
+        "logo": "/assets/images/logo-3-color.png",
+        "url": "#"
+      },
+      {
+        "name": "Client 4",
+        "logo": "/assets/images/logo-4-color.png",
+        "url": "#"
+      },
+      {
+        "name": "Client 5",
+        "logo": "/assets/images/logo-5-color.png",
+        "url": "#"
+      },
+      {
+        "name": "Client 6",
+        "logo": "/assets/images/logo-6-color.png",
+        "url": "#"
+      }
+    ]
+  },
+  "resume": {
+    "title": "Resume",
+    "education": [
+      {
+        "title": "National University of Modern Languages,Islamabad",
+        "date": "2021 — 2024",
+        "description": "Bachelor of Science in Software Engineering"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "Global Network Creativity Technology",
+        "location": "Islamabad, Pakistan",
+        "date": "January 2025 — Present",
+        "description": "Integrated HLS video playback (.m3u8) in React Native and web apps, enabling smooth adaptive streaming on iOS and Android. Built video upload workflows with Wasabi S3 and streaming APIs, improving content delivery efficiency by 30%. Developed TripBrain Planner AI, a travel app with Gemini API for smart recommendations, maps, and itinerary generation. Optimized UI/UX responsiveness and app performance, reducing load times by 20%."
+      },
+      {
+        "title": "React Native Developer",
+        "date": "January 2024 — December 2024",
+        "description": "Developed and maintained cross-platform mobile applications using React Native."
+      },
+      {
+        "title": "React Native Internship",
+        "date": "September 2023 — December 2024",
+        "description": "During my internship, I gained a solid understanding of React Native's basic concepts, including component-based development, state management, navigation, and API integration. I worked on building and optimizing mobile applications, enhancing my skills in cross-platform development."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Mobile Application Development",
+        "value": 90
+      },
+      {
+        "name": "React Native (CLI & Expo)",
+        "value": 90
+      },
+      {
+        "name": "Frontend Development (React.js)",
+        "value": 80
+      },
+      {
+        "name": "Backend (Node.js/Express)",
+        "value": 70
+      },
+      {
+        "name": "State Management (Redux/Context)",
+        "value": 80
+      },
+      {
+        "name": "AI Integration",
+        "value": 75
+      },
+      {
+        "name": "Firebase & Real-Time Features",
+        "value": 80
+      },
+      {
+        "name": "UI/UX Design",
+        "value": 80
+      },
+      {
+        "name": "WordPress",
+        "value": 80
+      },
+      {
+        "name": "Shopify",
+        "value": 80
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": [
+      {
+        "title": "TripBrain Planner",
+        "category": "Mobile Application",
+        "image": "/assets/images/tripbrainlogo.png",
+        "url": "#",
+        "apk": "/assets/apk/TripBrain_Planner.apk",
+        "hasApk": true
+      },
+      {
+        "title": "EarnKar",
+        "category": "Mobile Application",
+        "image": "/assets/images/eanrkarlogo.png",
+        "url": "#",
+        "apk": "https://drive.google.com/file/d/1kcpcjmy2ekiVwSHHUURvdOtCDm6fGCbr/view?usp=sharing",
+        "hasApk": true
+      },
+      {
+        "title": "Mereos",
+        "category": "Mobile Application",
+        "image": "/assets/images/mereosAppLogo.png",
+        "url": "https://play.google.com/store/apps/details?id=com.mobile_proctor",
+        "apk": "https://drive.google.com/file/d/1EQSlI6PlehCxcbxnH2Pgz7GsfljLxdrm/view?usp=sharing",
+        "hasApk": true
+      },
+     
+      {
+        "title": "TheClipStream",
+        "category": "Websites",
+        "image": "/assets/images/theclipstreamLogo.png",
+        "url": "https://theclipstream.netlify.app",
+        "hasApk": false
+      },
+      
+      {
+        "title": "Ecome Scale",
+        "category": "Wordpress Websites",
+        "image": "/assets/images/ecomScale.png",
+        "url": "https://ecomscale.pk/",
+        "hasApk": false
+      },
+      {
+        "title": "Fresh and Fit Ltd",
+        "category": "Wordpress Websites",
+        "image": "/assets/images/freshandfitLogo.png",
+        "url": "https://freshandfitltd.com/",
+        "hasApk": false
+      },
+      {
+        "title": "Wicked Plug",
+        "category": "Shopify Websites",
+        "image": "/assets/images/wicked_PlugLogo.jpg",
+        "url": "https://wickedplug.ie/",
+        "hasApk": false
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "posts": [
+       {
+        "title": "Optimizing React Native Performance: Best Practices",
+        "category": "Mobile Development",
+        "date": "Jan 15, 2025",
+        "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=500&fit=crop",
+        "text": "Learn how to reduce load times by 20% and improve app responsiveness with proven optimization techniques for React Native applications."
+      },
+      {
+        "title": "Integrating AI APIs in React Native Apps",
+        "category": "AI & Mobile",
+        "date": "Dec 10, 2024",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
+        "text": "A comprehensive guide to integrating Gemini API and other AI services into your React Native applications for smart features."
+      },
+      {
+        "title": "Firebase vs WebSockets: Choosing Real-Time Solutions",
+        "category": "Backend Integration",
+        "date": "Nov 22, 2024",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=500&fit=crop",
+        "text": "Comparing Firebase and WebSockets for real-time communication in mobile apps, with practical use cases and implementation tips."
+      },
+      {
+        "title": "State Management Mastery: Redux vs Context API",
+        "category": "React Native",
+        "date": "Oct 18, 2024",
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=500&fit=crop",
+        "text": "Deep dive into choosing the right state management solution for your React Native app and cutting development overhead by 25%."
+      },
+      {
+        "title": "Building Cross-Platform Apps: CLI vs Expo",
+        "category": "Mobile Development",
+        "date": "Sep 05, 2024",
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=500&fit=crop",
+        "text": "Understanding when to use React Native CLI versus Expo for your next mobile project, based on real-world development experience."
+      },
+      {
+        "title": "HLS Video Streaming in React Native",
+        "category": "Advanced Features",
+        "date": "Aug 20, 2024",
+        "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=500&fit=crop",
+        "text": "Step-by-step guide to implementing adaptive video streaming with HLS (.m3u8) for smooth playback on iOS and Android platforms."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.0802490776105!2d73.11486122479295!3d33.60322224130801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfeb6229a76d25%3A0x403f042c7aefe38f!2sFazal%20Town%20Phase%20I%20Phase%201%2C%20Rawalpindi%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1738175641195!5m2!1sen!2s",
+    "form": {
+      "title": "Contact Form",
+      "fields": [
+        {
+          "name": "fullname",
+          "type": "text",
+          "placeholder": "Full name",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "placeholder": "Email address",
+          "required": true
+        },
+        {
+          "name": "message",
+          "type": "textarea",
+          "placeholder": "Your Message",
+          "required": true
+        }
+      ]
+    }
+  }
+}

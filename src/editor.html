@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Editor</title>
+    <style>
+        .editor-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-editor {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .add-button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        textarea {
+            min-height: 100px;
+        }
+        .tab-container {
+            margin-bottom: 20px;
+        }
+        .tab-button {
+            padding: 10px 20px;
+            margin-right: 5px;
+            cursor: pointer;
+            border: none;
+            background: #f0f0f0;
+        }
+        .tab-button.active {
+            background: #4CAF50;
+            color: white;
+        }
+        .section-content {
+            display: none;
+        }
+        .section-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="editor-container">
+        <h1>Content Editor</h1>
+        
+        <div class="tab-container">
+            <button class="tab-button active" onclick="showSection('sidebar')">Sidebar</button>
+            <button class="tab-button" onclick="showSection('resume')">Resume</button>
+            <button class="tab-button" onclick="showSection('portfolio')">Portfolio</button>
+            <button class="tab-button" onclick="showSection('blog')">Blog</button>
+        </div>
+
+        <!-- Sidebar Editor -->
+        <div id="sidebar-section" class="section-content active">
+            <div class="section-editor">
+                <h2>Sidebar Information</h2>
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" id="sidebar-name">
+                </div>
+                <div class="form-group">
+                    <label>Title:</label>
+                    <input type="text" id="sidebar-title">
+                </div>
+                <button class="add-button" onclick="updateSidebar()">Update Sidebar</button>
+            </div>
+        </div>
+
+        <!-- Resume Editor -->
+        <div id="resume-section" class="section-content">
+            <div class="section-editor">
+                <h2>Add Education</h2>
+                <div class="form-group">
+                    <label>Title:</label>
+                    <input type="text" id="education-title">
+                </div>
+                <div class="form-group">
+                    <label>Date:</label>
+                    <input type="text" id="education-date">
+                </div>
+                <div class="form-group">
+                    <label>Description:</label>
+                    <textarea id="education-description"></textarea>
+                </div>
+                <button class="add-button" onclick="addEducation()">Add Education</button>
+            </div>
+
+            <div class="section-editor">
+                <h2>Add Experience</h2>
+                <div class="form-group">
+                    <label>Title:</label>
+                    <input type="text" id="experience-title">
+                </div>
+                <div class="form-group">
+                    <label>Date:</label>
+                    <input type="text" id="experience-date">
+                </div>
+                <div class="form-group">
+                    <label>Description:</label>
+                    <textarea id="experience-description"></textarea>
+                </div>
+                <button class="add-button" onclick="addExperience()">Add Experience</button>
+            </div>
+        </div>
+
+        <!-- Portfolio Editor -->
+        <div id="portfolio-section" class="section-content">
+            <div class="section-editor">
+                <h2>Add Project</h2>
+                <div class="form-group">
+                    <label>Title:</label>
+                    <input type="text" id="project-title">
+                </div>
+                <div class="form-group">
+                    <label>Category:</label>
+                    <input type="text" id="project-category">
+                </div>
+                <div class="form-group">
+                    <label>Image URL:</label>
+                    <input type="text" id="project-image">
+                </div>
+                <div class="form-group">
+                    <label>Project URL:</label>
+                    <input type="text" id="project-url">
+                </div>
+                <button class="add-button" onclick="addProject()">Add Project</button>
+            </div>
+        </div>
+
+        <!-- Blog Editor -->
+        <div id="blog-section" class="section-content">
+            <div class="section-editor">
+                <h2>Add Blog Post</h2>
+                <div class="form-group">
+                    <label>Title:</label>
+                    <input type="text" id="blog-title-input">
+                </div>
+                <div class="form-group">
+                    <label>Category:</label>
+                    <input type="text" id="blog-category">
+                </div>
+                <div class="form-group">
+                    <label>Date:</label>
+                    <input type="text" id="blog-date">
+                </div>
+                <div class="form-group">
+                    <label>Image URL:</label>
+                    <input type="text" id="blog-image">
+                </div>
+                <div class="form-group">
+                    <label>Text:</label>
+                    <textarea id="blog-text"></textarea>
+                </div>
+                <button class="add-button" onclick="addBlogPost()">Add Blog Post</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let contentData = {};
+        const filePath = '../src/content.json';
+
+        // Load existing content
+        fetch(filePath)
+            .then(response => response.json())
+            .then(data => {
+                contentData = data;
+                loadExistingData();
+            });
+
+        function showSection(sectionName) {
+            document.querySelectorAll('.section-content').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.classList.remove('active');
+            });
+            document.getElementById(`${sectionName}-section`).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function loadExistingData() {
+            document.getElementById('sidebar-name').value = contentData.sidebar.name;
+            document.getElementById('sidebar-title').value = contentData.sidebar.title;
+        }
+
+        function updateSidebar() {
+            contentData.sidebar.name = document.getElementById('sidebar-name').value;
+            contentData.sidebar.title = document.getElementById('sidebar-title').value;
+            saveToFile();
+        }
+
+        function addEducation() {
+            const newEducation = {
+                title: document.getElementById('education-title').value,
+                date: document.getElementById('education-date').value,
+                description: document.getElementById('education-description').value
+            };
+            contentData.resume.education.push(newEducation);
+            saveToFile();
+        }
+
+        function addExperience() {
+            const newExperience = {
+                title: document.getElementById('experience-title').value,
+                date: document.getElementById('experience-date').value,
+                description: document.getElementById('experience-description').value
+            };
+            contentData.resume.experience.push(newExperience);
+            saveToFile();
+        }
+
+        function addProject() {
+            const newProject = {
+                title: document.getElementById('project-title').value,
+                category: document.getElementById('project-category').value,
+                image: document.getElementById('project-image').value,
+                url: document.getElementById('project-url').value
+            };
+            contentData.portfolio.projects.push(newProject);
+            saveToFile();
+        }
+
+        function addBlogPost() {
+            const newPost = {
+                title: document.getElementById('blog-title-input').value,
+                category: document.getElementById('blog-category').value,
+                date: document.getElementById('blog-date').value,
+                image: document.getElementById('blog-image').value,
+                text: document.getElementById('blog-text').value
+            };
+            contentData.blog.posts.push(newPost);
+            saveToFile();
+        }
+
+        function saveToFile() {
+            const jsonString = JSON.stringify(contentData, null, 2);
+            
+            // Using the Fetch API to send the data to a server endpoint
+            fetch('/save-content', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: jsonString
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert('Content updated successfully!');
+            })
+            .catch(error => {
+                console.error('Error saving content:', error);
+                alert('Error saving content. Check console for details.');
+            });
+        }
+    </script>
+</body>
+</html>
