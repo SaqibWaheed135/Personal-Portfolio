@@ -39,12 +39,26 @@
     }
   },
   "about": {
-    "title": "About me",
-    "text": [
-      "I'm Saqib Waheed, a passionate React Native Developer with 1.5+ years of hands-on experience in building cross-platform mobile applications for e-commerce, AI, and real-time communication platforms. I specialize in React Native CLI, Firebase, WebSockets, and AI integrations, with a strong focus on clean code, performance optimization, and delivering seamless user experiences.",
-      "Throughout my career journey, I've worked on diverse projects ranging from AI-powered travel planners to secure proctoring systems and full-stack e-commerce platforms. I hold a Bachelor of Science in Software Engineering from National University of Modern Languages, Islamabad (2021-2024).",
-      "My professional experience includes working as a Software Engineer at Global Network Creativity Technology (January 2025 - Present), where I've integrated HLS video playback and built video upload workflows with Wasabi S3. Prior to that, I served as a React Native Developer at X Apparel Private Ltd. (January 2024 - December 2024), where I developed cross-platform mobile applications, integrated Firebase and WebSockets, and improved app performance by 15%. I also completed an internship at the same company (October 2023 - December 2023), gaining hands-on experience in React Native, Expo, Firebase, and API integration."
-    ],
+   
+      "title": "About me",
+      "text": [
+        "I’m Saqib Waheed, a Full Stack Developer specializing in React Native, React.js, Node.js, and MongoDB, with 2.5+ years of hands-on experience building cross-platform mobile and web applications.",
+        
+        "My expertise includes React Native CLI, Firebase, WebSockets, REST APIs, HLS video streaming, and cloud-based media workflows using AWS S3 and Wasabi S3. I focus on building scalable, high-performance applications with clean architecture and smooth user experiences.",
+        
+        "Currently, I’m working as a React Native Full Stack Developer at Global Seo Creative Technology, where I develop live streaming applications using React Native, React.js, and Node.js. My responsibilities include building REST APIs, implementing WebSocket-based real-time communication systems, integrating HLS video streaming (.m3u8), and developing scalable backend functionalities.",
+        
+        "Alongside this role, I’m also working as a Software Engineer at Global Network Creativity Technology, where I work on streaming and AI-powered applications. My work includes integrating HLS video playback, building media upload workflows using AWS S3 and Wasabi S3, developing backend APIs with Node.js and MongoDB, and integrating Gemini API-powered AI features.",
+        
+        "Previously, I worked as a React Native Developer at Veeivs, where I developed cross-platform mobile applications for Android and iOS using React Native and integrated REST APIs, Firebase services, and authentication systems.",
+        
+        "Before that, I worked as a React Native Developer at X Apparel Private Ltd., where I developed mobile applications with Firebase, Redux, WebSockets, and real-time communication features while contributing to performance optimization and production-level feature integration.",
+        
+        "I started my professional journey as a React Native Intern at X Apparel Private Ltd., gaining practical experience in React Native, Expo, Firebase, API integration, debugging, and responsive mobile UI development.",
+        
+        "I hold a Bachelor of Science in Software Engineering from the National University of Modern Languages, Islamabad (2021–2024)."
+      ],
+    
     "services": [
       {
         "title": "Mobile App Development",
@@ -163,39 +177,49 @@
     ],
     "experience": [
       {
-        "title": "Software Engineer",
+        "title": "React Native Full Stack Developer",
+        "company": "Global Seo Creative Technology",
+        "location": "Islamabad, Pakistan",
+        "date": "January 2025 — Present",
+        "description": "Developing a realtime live streaming platform using React Native, React.js, Node.js, MongoDB, Socket.IO, and HLS streaming.Built backend APIs, realtime communication workflows, and media handling systems for streaming operations.Implemented adaptive HLS (.m3u8) playback for Android, iOS, and web platforms.Integrated Firebase authentication, push notifications, and cloud-based media workflows."
+      },
+      {
+        "title": "React Native Developer",
+        "company": "Veeivs",
+        "location": "Islamabad, Pakistan",
+        "date": "January 2025 — Present",
+        "description": "Developed cross-platform mobile applications using React Native for Android and IOS. Converted Figma designs into reusable and responsive mobile UI components.Integrated REST APIs, Firebase services, and authentication systems."
+      },
+      {
+        "title": "React Native Developer",
         "company": "Global Network Creativity Technology",
         "location": "Islamabad, Pakistan",
         "date": "January 2025 — Present",
-        "description": "Integrated HLS video playback (.m3u8) in React Native and web apps, enabling smooth adaptive streaming on iOS and Android. Built video upload workflows with Wasabi S3 and streaming APIs, improving content delivery efficiency by 30%. Developed TripBrain Planner AI, a travel app with Gemini API for smart recommendations, maps, and itinerary generation. Optimized UI/UX responsiveness and app performance, reducing load times by 20%."
+        "description": "Developed streaming and realtime applications using React Native, Node.js, Express.js, and MongoDB.Implemented HLS video streaming and Wasabi S3 media upload workflows.Built TripBrain AI Planner application with Gemini API integration and location-based features."
       },
       {
         "title": "React Native Developer",
         "date": "January 2024 — December 2024",
-        "description": "Developed and maintained cross-platform mobile applications using React Native."
+        "description": "Developed and maintained React Native applications with Firebase and REST API integrationsImplemented Redux, realtime communication features, and push notification systems.Improved application stability through debugging and performance optimization."
       },
       {
         "title": "React Native Internship",
         "date": "September 2023 — December 2024",
-        "description": "During my internship, I gained a solid understanding of React Native's basic concepts, including component-based development, state management, navigation, and API integration. I worked on building and optimizing mobile applications, enhancing my skills in cross-platform development."
+        "description": "Assisted in developing React Native mobile applications using Expo and Firebase.Worked on API integrations, UI implementation, debugging, and feature testing.Participated in code reviews and production-level mobile application workflows.Contributed to responsive UI improvements and frontend feature enhancements."
       }
     ],
     "skills": [
-      {
-        "name": "Mobile Application Development",
-        "value": 90
-      },
       {
         "name": "React Native (CLI & Expo)",
         "value": 90
       },
       {
         "name": "Frontend Development (React.js)",
-        "value": 80
+        "value": 90
       },
       {
-        "name": "Backend (Node.js/Express)",
-        "value": 70
+        "name": "Backend Development",
+        "value": 80
       },
       {
         "name": "State Management (Redux/Context)",
@@ -227,6 +251,21 @@
     "title": "Portfolio",
     "projects": [
       {
+        "title": "Arlsp",
+        "category": "Mobile Application",
+        "image": "/assets/images/image.png",
+        "url": "https://play.google.com/store/apps/details?id=com.arlsp",
+        "apk": "https://drive.google.com/file/d/1-0nvnafHxQheMdYAktEAE51bQG7QS1xO/view?usp=sharing",
+        "hasApk": true
+      },
+      {
+        "title": "Arlsp Website",
+        "category": "Websites",
+        "image": "/assets/images/arlsp_logo.jpeg",
+        "url": "https://arlsp.com",
+        "hasApk": false
+      },
+      {
         "title": "Stylish- Full Stack E Commerce App",
         "category": "Mobile Application",
         "image": "/assets/images/cover.jpg",
@@ -251,6 +290,13 @@
         "hasApk": true
       },
       {
+        "title": "Krudds Aluminium Website",
+        "category": "Wordpress Websites",
+        "image": "/assets/images/headerlogo.svg",
+        "url": " https://kruddsonaluminium.com.pk/",
+        "hasApk": false
+      },
+      {
         "title": "Mereos",
         "category": "Mobile Application",
         "image": "/assets/images/mereosAppLogo.png",
@@ -270,6 +316,14 @@
         "category": "Wordpress Websites",
         "image": "/assets/images/ecomScale.png",
         "url": "https://ecomscale.pk/",
+        "hasApk": false
+      },
+
+      {
+        "title": "Global Seo Creative Limited",
+        "category": "Websites",
+        "image": "/assets/images/arlsp_logo.jpeg",
+        "url": "https://globalseocreativeltd.com",
         "hasApk": false
       },
       {

@@ -1,6 +1,6 @@
 import React from 'react';
 import content from '../content.json';
-import Myresume from './assets/resume/Saqib-Waheed-Resume.pdf'
+import Myresume from './assets/resume/Saqib_Waheed_Resume.pdf'
 
 const Resume = () => {
   const { resume } = content;
