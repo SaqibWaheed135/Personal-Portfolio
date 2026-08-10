@@ -312,6 +312,27 @@
         "hasApk": false
       },
       {
+        "title": "ATLAS 3D Assets",
+        "category": "Websites",
+        "image": "/assets/images/atlas-logo.svg",
+        "url": "https://3d-assets-unique.vercel.app/",
+        "hasApk": false
+      },
+      {
+        "title": "7even Creatives",
+        "category": "Websites",
+        "image": "/assets/images/logo.png",
+        "url": "https://7evencreatives.com",
+        "hasApk": false
+      },
+      {
+        "title": "FarmVerse Game",
+        "category": "Websites",
+        "image": "/assets/images/farmVerse_logo.png",
+        "url": "https://farmversegame.com",
+        "hasApk": false
+      },
+      {
         "title": "Ecome Scale",
         "category": "Wordpress Websites",
         "image": "/assets/images/ecomScale.png",
