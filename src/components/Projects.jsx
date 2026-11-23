@@ -39,7 +39,10 @@ function ProjectCard({ project, featured = false }) {
             </span>
           ))}
         </div>
-        {(project.links?.live || project.links?.store || project.apk) && (
+        {(project.links?.live ||
+          project.links?.store ||
+          project.links?.appStore ||
+          project.apk) && (
           <div className="project-links">
             {project.links?.live && (
               <a href={project.links.live} target="_blank" rel="noopener noreferrer">
@@ -49,6 +52,11 @@ function ProjectCard({ project, featured = false }) {
             {project.links?.store && (
               <a href={project.links.store} target="_blank" rel="noopener noreferrer">
                 Play Store <IconExternal />
+              </a>
+            )}
+            {project.links?.appStore && (
+              <a href={project.links.appStore} target="_blank" rel="noopener noreferrer">
+                App Store <IconExternal />
               </a>
             )}
             {project.apk && (

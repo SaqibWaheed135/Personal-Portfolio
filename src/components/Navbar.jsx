@@ -43,7 +43,14 @@ export default function Navbar() {
     <>
       <header className={`nav ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-inner">
-          <a href="#home" className="brand" onClick={() => goTo('home')}>
+          <a
+            href="#home"
+            className="brand"
+            onClick={(e) => {
+              e.preventDefault();
+              goTo('home');
+            }}
+          >
             <span className="brand-mark">{site.monogram}</span>
             <span className="brand-name">{site.name}</span>
           </a>

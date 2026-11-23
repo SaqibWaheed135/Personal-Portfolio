@@ -62,9 +62,9 @@ export const site = {
   experience: [
     {
       role: 'React Native Full Stack Developer',
-      company: 'Global Seo Creative Technology',
+      company: 'Global Seo Creative Limited',
       location: 'Islamabad, Pakistan',
-      date: 'January 2025 — Present',
+      date: 'January 2026 — Present',
       summary:
         'Building a real-time live streaming platform spanning mobile and web, with end-to-end ownership of client features and backend services.',
       highlights: [
@@ -79,7 +79,7 @@ export const site = {
       role: 'React Native Developer',
       company: 'Veeivs',
       location: 'Islamabad, Pakistan',
-      date: 'January 2025 — Present',
+      date: 'September 2025 — December 2025',
       summary:
         'Shipping cross-platform mobile applications with production UI systems and integrated backend services.',
       highlights: [
@@ -93,7 +93,7 @@ export const site = {
       role: 'Full Stack Mobile Application Developer',
       company: 'Global Network Creativity Technology',
       location: 'Islamabad, Pakistan',
-      date: 'January 2025 — Present',
+      date: 'January 2025 — August 2025',
       summary:
         'Engineering streaming, media, and AI-powered applications with full-stack delivery across client and server.',
       highlights: [
@@ -150,6 +150,8 @@ export const site = {
       platforms: ['iOS', 'Android', 'Web'],
       links: {
         live: 'https://farmversegame.com',
+        store: 'https://play.google.com/store/apps/details?id=com.myfarm.game',
+        appStore: 'https://apps.apple.com/us/app/farmverse/id6811804623',
       },
     },
     {
@@ -166,6 +168,7 @@ export const site = {
       links: {
         live: 'https://arlsp.com',
         store: 'https://play.google.com/store/apps/details?id=com.arlsp',
+        appStore: 'https://apps.apple.com/us/app/arlsp-live-streaming/id6770545765',
       },
     },
     {
