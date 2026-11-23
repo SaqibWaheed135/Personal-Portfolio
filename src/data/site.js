@@ -203,6 +203,23 @@ export const site = {
     },
     {
       featured: true,
+      name: 'Cow A Cow',
+      description:
+        'Tile-matching puzzle game with campaign levels, rewards, authentication flows, and a public product website.',
+      contribution:
+        'Cross-platform development with Google and Telegram authentication, deep linking, and backend integration — shipped on Google Play and the App Store.',
+      image: null,
+      accent: 'cow',
+      stack: ['React', 'Capacitor', 'Google Auth', 'Telegram Auth', 'Deep Linking'],
+      platforms: ['iOS', 'Android', 'Web'],
+      links: {
+        live: 'https://cowacow.com/',
+        store: 'https://play.google.com/store/apps/details?id=com.cowacow.com',
+        appStore: 'https://apps.apple.com/us/app/cow-a-cow/id6824461062',
+      },
+    },
+    {
+      featured: true,
       name: 'CallLoom',
       description:
         'Communication-focused mobile application built around telephony workflows and operator dashboards.',
@@ -226,19 +243,6 @@ export const site = {
       platforms: ['iOS', 'Android'],
       links: {},
       apk: '/assets/apk/TripBrain_Planner.apk',
-    },
-    {
-      featured: false,
-      name: 'Cow A Cow',
-      description:
-        'Cross-platform application with multi-provider authentication and deep-link driven flows.',
-      contribution:
-        'Cross-platform development with Google and Telegram authentication, deep linking, and backend integration.',
-      image: null,
-      accent: 'cow',
-      stack: ['React', 'Capacitor', 'Google Auth', 'Telegram Auth', 'Deep Linking'],
-      platforms: ['Cross-platform'],
-      links: {},
     },
   ],
   supportingProjects: [
