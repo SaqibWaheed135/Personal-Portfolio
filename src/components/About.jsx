@@ -20,7 +20,7 @@ export default function About() {
           <Reveal delay={0.12}>
             <ul className="capability-list">
               {site.about.capabilities.map((item) => (
-                <li key={item.title} className="card capability-item">
+                <li key={item.title} className="capability-item">
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>
                 </li>

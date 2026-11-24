@@ -175,9 +175,8 @@ export default function Contact() {
                 </button>
 
                 <p className="form-note">
-                  {endpoint
-                    ? 'Messages are delivered through Formspree.'
-                    : `No email API is configured. Submitting opens your mail client to ${site.email}. Set VITE_FORMSPREE_ID for direct form delivery.`}
+                  Prefer email? Reach me directly at{' '}
+                  <a href={`mailto:${site.email}`}>{site.email}</a>.
                 </p>
 
                 {status.message && (

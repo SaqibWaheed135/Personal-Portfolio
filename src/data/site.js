@@ -22,19 +22,15 @@ export const site = {
     { id: 'contact', label: 'Contact' },
   ],
   hero: {
-    headline: 'Building Digital Products That Scale.',
+    headline: 'Building digital products that scale.',
     subheadline:
-      'Full-Stack Developer crafting modern web, mobile, and real-time applications.',
-    paragraph:
-      'I turn complex ideas into production-ready digital experiences — combining modern frontend engineering, scalable backend systems, and cloud infrastructure.',
-    technologies: ['React Native', 'React.js', 'Node.js', 'MongoDB', 'AWS', 'LiveKit'],
+      'Modern web, mobile, and real-time applications — shipped end to end.',
   },
   about: {
     heading: 'Engineering Ideas Into Reality.',
     paragraphs: [
-      'Full-Stack Developer with 3+ years of experience building and shipping production-ready mobile and web applications. I specialize in React Native, React.js, Node.js, Express.js, and MongoDB, with hands-on work in real-time communication, live streaming, WebSockets, HLS, LiveKit, WebRTC, cloud storage, AWS services, and AI integrations.',
-      'I build complete digital products — from intuitive interfaces to scalable backend architectures and cloud-powered infrastructure — across Android, iOS, and the web.',
-      'My focus is ownership: designing APIs, integrating third-party services, shipping to production stores and the web, and solving real engineering problems with clean, maintainable systems.',
+      'Full-Stack Developer with 3+ years of experience shipping production-ready mobile and web apps. I specialize in React Native, React.js, Node.js, and MongoDB, with hands-on work in live streaming, WebSockets, LiveKit, AWS, and AI integrations.',
+      'I take ownership from interface to infrastructure — designing APIs, integrating services, and shipping to stores and the web with systems that stay maintainable.',
     ],
     capabilities: [
       {
